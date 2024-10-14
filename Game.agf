@@ -745,9 +745,9 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <BackgroundColor>32089</BackgroundColor>
+              <BackgroundColor>25161</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <BorderColor>32089</BorderColor>
+              <BorderColor>25161</BorderColor>
               <Clickable>True</Clickable>
               <Height>125</Height>
               <ID>1</ID>
@@ -764,21 +764,21 @@
             </NormalGUI>
             <Controls>
               <GUIButton>
-                <ClickAction>SetCursorMode</ClickAction>
+                <ClickAction>RunScript</ClickAction>
                 <Clickable>True</Clickable>
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
                 <Height>218</Height>
                 <ID>0</ID>
-                <Image>2108</Image>
-                <Left>438</Left>
+                <Image>2132</Image>
+                <Left>1518</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2109</MouseoverImage>
-                <Name>btnIconInteract</Name>
-                <NewModeNumber>2</NewModeNumber>
-                <OnClick />
-                <PushedImage>2110</PushedImage>
+                <MouseoverImage>2133</MouseoverImage>
+                <Name>btnIconLoad</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btnIconLoad_Click</OnClick>
+                <PushedImage>2134</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
@@ -789,21 +789,21 @@
                 <ZOrder>0</ZOrder>
               </GUIButton>
               <GUIButton>
-                <ClickAction>SetCursorMode</ClickAction>
+                <ClickAction>RunScript</ClickAction>
                 <Clickable>True</Clickable>
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
                 <Height>218</Height>
                 <ID>1</ID>
-                <Image>2112</Image>
-                <Left>654</Left>
+                <Image>2140</Image>
+                <Left>1950</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2113</MouseoverImage>
-                <Name>btnIconTalk</Name>
-                <NewModeNumber>3</NewModeNumber>
-                <OnClick />
-                <PushedImage>2114</PushedImage>
+                <MouseoverImage>2141</MouseoverImage>
+                <Name>btnIconExit</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>btnIconExit_Click</OnClick>
+                <PushedImage>2142</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
@@ -821,106 +821,6 @@
                 <Font>0</Font>
                 <Height>218</Height>
                 <ID>2</ID>
-                <Image>2120</Image>
-                <Left>870</Left>
-                <Locked>False</Locked>
-                <MouseoverImage>2121</MouseoverImage>
-                <Name>btnIconInv</Name>
-                <NewModeNumber>0</NewModeNumber>
-                <OnClick>btnIconInv_Click</OnClick>
-                <PushedImage>2122</PushedImage>
-                <Text />
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>16</TextColor>
-                <Top>8</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>216</Width>
-                <ZOrder>2</ZOrder>
-              </GUIButton>
-              <GUIButton>
-                <ClickAction>RunScript</ClickAction>
-                <Clickable>True</Clickable>
-                <ClipImage>False</ClipImage>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>218</Height>
-                <ID>3</ID>
-                <Image>2128</Image>
-                <Left>1302</Left>
-                <Locked>False</Locked>
-                <MouseoverImage>2129</MouseoverImage>
-                <Name>btnIconSave</Name>
-                <NewModeNumber>0</NewModeNumber>
-                <OnClick>btnIconSave_Click</OnClick>
-                <PushedImage>2130</PushedImage>
-                <Text />
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>16</TextColor>
-                <Top>8</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>216</Width>
-                <ZOrder>3</ZOrder>
-              </GUIButton>
-              <GUIButton>
-                <ClickAction>RunScript</ClickAction>
-                <Clickable>True</Clickable>
-                <ClipImage>False</ClipImage>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>218</Height>
-                <ID>4</ID>
-                <Image>2132</Image>
-                <Left>1518</Left>
-                <Locked>False</Locked>
-                <MouseoverImage>2133</MouseoverImage>
-                <Name>btnIconLoad</Name>
-                <NewModeNumber>0</NewModeNumber>
-                <OnClick>btnIconLoad_Click</OnClick>
-                <PushedImage>2134</PushedImage>
-                <Text />
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>16</TextColor>
-                <Top>8</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>216</Width>
-                <ZOrder>4</ZOrder>
-              </GUIButton>
-              <GUIButton>
-                <ClickAction>RunScript</ClickAction>
-                <Clickable>True</Clickable>
-                <ClipImage>False</ClipImage>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>218</Height>
-                <ID>5</ID>
-                <Image>2140</Image>
-                <Left>1950</Left>
-                <Locked>False</Locked>
-                <MouseoverImage>2141</MouseoverImage>
-                <Name>btnIconExit</Name>
-                <NewModeNumber>0</NewModeNumber>
-                <OnClick>btnIconExit_Click</OnClick>
-                <PushedImage>2142</PushedImage>
-                <Text />
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>16</TextColor>
-                <Top>8</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>216</Width>
-                <ZOrder>5</ZOrder>
-              </GUIButton>
-              <GUIButton>
-                <ClickAction>RunScript</ClickAction>
-                <Clickable>True</Clickable>
-                <ClipImage>False</ClipImage>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>218</Height>
-                <ID>6</ID>
                 <Image>2136</Image>
                 <Left>1734</Left>
                 <Locked>False</Locked>
@@ -936,7 +836,7 @@
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>216</Width>
-                <ZOrder>6</ZOrder>
+                <ZOrder>2</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -945,7 +845,7 @@
                 <Enabled>True</Enabled>
                 <Font>0</Font>
                 <Height>125</Height>
-                <ID>7</ID>
+                <ID>3</ID>
                 <Image>20</Image>
                 <Left>14</Left>
                 <Locked>False</Locked>
@@ -961,7 +861,82 @@
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>126</Width>
-                <ZOrder>7</ZOrder>
+                <ZOrder>3</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>125</Height>
+                <ID>4</ID>
+                <Image>22</Image>
+                <Left>159</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button2</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>1</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>126</Width>
+                <ZOrder>4</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>125</Height>
+                <ID>5</ID>
+                <Image>21</Image>
+                <Left>303</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button3</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>1</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>126</Width>
+                <ZOrder>5</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>125</Height>
+                <ID>6</ID>
+                <Image>23</Image>
+                <Left>447</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button4</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>1</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>126</Width>
+                <ZOrder>6</ZOrder>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -4717,6 +4692,51 @@
               <Sprite Slot="20" Width="126" Height="125" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\gthomps4\Downloads\Time.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>125</ImportHeight>
+                  <ImportWidth>126</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="21" Width="126" Height="125" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\gthomps4\Downloads\Talk.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>125</ImportHeight>
+                  <ImportWidth>126</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="22" Width="126" Height="125" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\gthomps4\Downloads\Hand.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>125</ImportHeight>
+                  <ImportWidth>126</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="23" Width="126" Height="125" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\gthomps4\Downloads\Book.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>125</ImportHeight>

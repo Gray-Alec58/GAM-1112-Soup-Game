@@ -764,88 +764,13 @@
             </NormalGUI>
             <Controls>
               <GUIButton>
-                <ClickAction>SetCursorMode</ClickAction>
-                <Clickable>True</Clickable>
-                <ClipImage>False</ClipImage>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>125</Height>
-                <ID>0</ID>
-                <Image>22</Image>
-                <Left>167</Left>
-                <Locked>False</Locked>
-                <MouseoverImage>2109</MouseoverImage>
-                <Name>btnIconInteract</Name>
-                <NewModeNumber>2</NewModeNumber>
-                <OnClick />
-                <PushedImage>2110</PushedImage>
-                <Text />
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>16</TextColor>
-                <Top>0</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>126</Width>
-                <ZOrder>0</ZOrder>
-              </GUIButton>
-              <GUIButton>
-                <ClickAction>SetCursorMode</ClickAction>
-                <Clickable>True</Clickable>
-                <ClipImage>False</ClipImage>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>125</Height>
-                <ID>1</ID>
-                <Image>21</Image>
-                <Left>317</Left>
-                <Locked>False</Locked>
-                <MouseoverImage>2113</MouseoverImage>
-                <Name>btnIconTalk</Name>
-                <NewModeNumber>3</NewModeNumber>
-                <OnClick />
-                <PushedImage>2114</PushedImage>
-                <Text />
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>16</TextColor>
-                <Top>0</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>126</Width>
-                <ZOrder>1</ZOrder>
-              </GUIButton>
-              <GUIButton>
-                <ClickAction>RunScript</ClickAction>
-                <Clickable>True</Clickable>
-                <ClipImage>False</ClipImage>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>125</Height>
-                <ID>2</ID>
-                <Image>23</Image>
-                <Left>469</Left>
-                <Locked>False</Locked>
-                <MouseoverImage>2121</MouseoverImage>
-                <Name>btnIconInv</Name>
-                <NewModeNumber>0</NewModeNumber>
-                <OnClick>btnIconInv_Click</OnClick>
-                <PushedImage>2122</PushedImage>
-                <Text />
-                <TextAlignment>TopCenter</TextAlignment>
-                <TextColor>16</TextColor>
-                <Top>0</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>126</Width>
-                <ZOrder>2</ZOrder>
-              </GUIButton>
-              <GUIButton>
                 <ClickAction>RunScript</ClickAction>
                 <Clickable>True</Clickable>
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
                 <Height>218</Height>
-                <ID>3</ID>
+                <ID>0</ID>
                 <Image>2132</Image>
                 <Left>1518</Left>
                 <Locked>False</Locked>
@@ -861,7 +786,7 @@
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>216</Width>
-                <ZOrder>3</ZOrder>
+                <ZOrder>0</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -870,7 +795,7 @@
                 <Enabled>True</Enabled>
                 <Font>0</Font>
                 <Height>218</Height>
-                <ID>4</ID>
+                <ID>1</ID>
                 <Image>2140</Image>
                 <Left>1950</Left>
                 <Locked>False</Locked>
@@ -886,7 +811,7 @@
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>216</Width>
-                <ZOrder>4</ZOrder>
+                <ZOrder>1</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -895,7 +820,7 @@
                 <Enabled>True</Enabled>
                 <Font>0</Font>
                 <Height>218</Height>
-                <ID>5</ID>
+                <ID>2</ID>
                 <Image>2136</Image>
                 <Left>1734</Left>
                 <Locked>False</Locked>
@@ -911,7 +836,7 @@
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>216</Width>
-                <ZOrder>5</ZOrder>
+                <ZOrder>2</ZOrder>
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
@@ -920,7 +845,7 @@
                 <Enabled>True</Enabled>
                 <Font>0</Font>
                 <Height>125</Height>
-                <ID>6</ID>
+                <ID>3</ID>
                 <Image>20</Image>
                 <Left>14</Left>
                 <Locked>False</Locked>
@@ -933,6 +858,81 @@
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
                 <Top>0</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>126</Width>
+                <ZOrder>3</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>125</Height>
+                <ID>4</ID>
+                <Image>22</Image>
+                <Left>159</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button2</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>1</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>126</Width>
+                <ZOrder>4</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>125</Height>
+                <ID>5</ID>
+                <Image>21</Image>
+                <Left>303</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button3</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>1</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>126</Width>
+                <ZOrder>5</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>125</Height>
+                <ID>6</ID>
+                <Image>23</Image>
+                <Left>447</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button4</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>126</Width>

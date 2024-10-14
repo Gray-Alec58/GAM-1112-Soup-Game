@@ -938,6 +938,31 @@
                 <Width>126</Width>
                 <ZOrder>6</ZOrder>
               </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>36</Height>
+                <ID>7</ID>
+                <Image>0</Image>
+                <Left>1362</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>btnIconSave</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>8</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>112</Width>
+                <ZOrder>7</ZOrder>
+              </GUIButton>
             </Controls>
           </GUIMain>
           <GUIMain>

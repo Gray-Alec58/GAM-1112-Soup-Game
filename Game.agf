@@ -769,10 +769,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>218</Height>
+                <Height>125</Height>
                 <ID>0</ID>
-                <Image>2132</Image>
-                <Left>1518</Left>
+                <Image>25</Image>
+                <Left>1343</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2133</MouseoverImage>
                 <Name>btnIconLoad</Name>
@@ -782,10 +782,10 @@
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>8</Top>
+                <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>216</Width>
+                <Width>126</Width>
                 <ZOrder>0</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -794,10 +794,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>218</Height>
+                <Height>125</Height>
                 <ID>1</ID>
-                <Image>2140</Image>
-                <Left>1950</Left>
+                <Image>24</Image>
+                <Left>1876</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2141</MouseoverImage>
                 <Name>btnIconExit</Name>
@@ -807,10 +807,10 @@
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>8</Top>
+                <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>216</Width>
+                <Width>126</Width>
                 <ZOrder>1</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -819,10 +819,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>218</Height>
+                <Height>125</Height>
                 <ID>2</ID>
-                <Image>2136</Image>
-                <Left>1734</Left>
+                <Image>27</Image>
+                <Left>1606</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>2137</MouseoverImage>
                 <Name>btnIconPanel</Name>
@@ -832,10 +832,10 @@
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
-                <Top>8</Top>
+                <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>216</Width>
+                <Width>126</Width>
                 <ZOrder>2</ZOrder>
               </GUIButton>
               <GUIButton>
@@ -847,7 +847,7 @@
                 <Height>125</Height>
                 <ID>3</ID>
                 <Image>20</Image>
-                <Left>14</Left>
+                <Left>88</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Button1</Name>
@@ -857,7 +857,7 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>0</Top>
+                <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>126</Width>
@@ -872,7 +872,7 @@
                 <Height>125</Height>
                 <ID>4</ID>
                 <Image>22</Image>
-                <Left>159</Left>
+                <Left>331</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Button2</Name>
@@ -897,7 +897,7 @@
                 <Height>125</Height>
                 <ID>5</ID>
                 <Image>21</Image>
-                <Left>303</Left>
+                <Left>595</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Button3</Name>
@@ -922,7 +922,7 @@
                 <Height>125</Height>
                 <ID>6</ID>
                 <Image>23</Image>
-                <Left>447</Left>
+                <Left>851</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>Button4</Name>
@@ -944,10 +944,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>36</Height>
+                <Height>125</Height>
                 <ID>7</ID>
-                <Image>0</Image>
-                <Left>1362</Left>
+                <Image>26</Image>
+                <Left>1093</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>btnIconSave</Name>
@@ -957,10 +957,10 @@
                 <Text xml:space="preserve">New Button</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>8</Top>
+                <Top>1</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>112</Width>
+                <Width>126</Width>
                 <ZOrder>7</ZOrder>
               </GUIButton>
             </Controls>
@@ -4762,6 +4762,66 @@
               <Sprite Slot="23" Width="126" Height="125" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\gthomps4\Downloads\Book.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>125</ImportHeight>
+                  <ImportWidth>126</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="24" Width="126" Height="125" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\gthomps4\Downloads\power.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>125</ImportHeight>
+                  <ImportWidth>126</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="25" Width="126" Height="125" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\gthomps4\Downloads\Export.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>125</ImportHeight>
+                  <ImportWidth>126</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="26" Width="126" Height="125" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\gthomps4\Downloads\Save.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>125</ImportHeight>
+                  <ImportWidth>126</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="27" Width="126" Height="125" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\gthomps4\Downloads\Settings.png</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>125</ImportHeight>
